@@ -1,0 +1,31 @@
+{
+  "name": "cira",
+  "version": "0.0.1",
+  "author": "Dario Gieselaar <d.gieselaar@gmail.com>",
+  "description": "A command-line tool for interacting with JIRA",
+  "main": "./lib/cira",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/plestik/cira.git"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "jira"
+  ],
+  "contributors": [
+    {
+      "name": "Dario Gieselaar",
+      "email": "d.gieselaar@gmail.com"
+    }
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "cira": "./bin/cira"
+  },
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "commander": "^2.4.0",
+    "inquirer": "^0.8.0"
+  }
+}
