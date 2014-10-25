@@ -1,12 +1,6 @@
 #!/usr/bin/env node
 
-var program = require('commander');
+var cli = require('../lib/cli'),
+	argsv = require('optimist').argv;
 
-program
-	.version('0.0.1')
-	.command('config')
-	.action(function ( ) {
-		console.log('config');
-	});
-
-program.parse(process.argv);
+cli(argsv);
