@@ -30,6 +30,9 @@ Commands related to sprints. If empty, it defaults to list.
 - `add`: Add an issue (or more) to the first open sprint. Separate issues with commas, eg `cira sprint add 123 124 125`
 - `remove`: Remove an issue from the sprint it's in. Use it like `add`.
 
+
+_Everything below is a work in progress_.
+
 cira config
 
 - configure cira. if no arguments are given, the user is prompted to fill in all required configurable values. you can directly set values with --key=value.
