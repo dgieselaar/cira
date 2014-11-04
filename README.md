@@ -19,7 +19,7 @@ cira needs a couple of values from you to succesfully interact with JIRA's api. 
 
 ### sprint
 
-Commands related to sprints. If empty, it defaults to list.
+Commands related to sprints. If empty, it defaults to `show`.
 
 - `list`: List all issues in the open sprints.
 	- `-m, --mine`: Only your issues
@@ -31,38 +31,23 @@ Commands related to sprints. If empty, it defaults to list.
 - `remove`: Remove an issue from the sprint it's in. Use it like `add`.
 
 
+### issue
+
+Issue commands. If empty, it defaults to `show`. For every command, you can supply a comma-separated list of issue IDs, eg `cira issue 123 124 125`.
+
+- `show`: Show detailed issue views, including comments.
+
+
 _Everything below is a work in progress_.
-
-cira config
-
-- configure cira. if no arguments are given, the user is prompted to fill in all required configurable values. you can directly set values with --key=value.
 
 general options:
 
 --fields
 - define which fields should be displayed
 
---format
-- define how the issues should be displayed
-
 --project
 - set project prefix (otherwise, default is used)
 
-
-cira sprint
-- list all issues in the open sprints.
-
-cira sprint active
-- show active sprint
-
-cira sprint mine
-- list your issues in active sprint
-
-cira sprint add [ ... ]
-- add specified issues to active sprint
-
-cira sprint remove [ ... ]
-- remove specified issues from active sprint 
 
 cira search
 - search for issues. use jql with -j or use free text search
