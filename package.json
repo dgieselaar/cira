@@ -1,6 +1,6 @@
 {
   "name": "cira",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Dario Gieselaar <d.gieselaar@gmail.com>",
   "description": "A command-line tool for interacting with JIRA",
   "main": "./lib/cira",
