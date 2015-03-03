@@ -17,6 +17,10 @@
     {
       "name": "Dario Gieselaar",
       "email": "d.gieselaar@gmail.com"
+    },
+    {
+      "name": "Kenan Yildirim",
+      "email": "kenan@kenany.me"
     }
   ],
   "bin": {
@@ -26,7 +30,6 @@
     "ansi-regex": "^1.1.0",
     "chalk": "^0.5.1",
     "cli-table": "^0.3.1",
-    "fs": "0.0.2",
     "jira": "git+https://github.com/plestik/node-jira.git",
     "lodash": "^2.4.1",
     "optimist": "^0.6.1",
